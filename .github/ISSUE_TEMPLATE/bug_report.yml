@@ -1,0 +1,38 @@
+name: 🐛 Bug Report
+description: File a bug report here
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug! 🤗
+        Please ensure there are no existing open or closed issues related to this topic before submitting. 😃
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Briefly describe what happened and what the expected behavior was.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to replicate the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: |
+        Provide any additional details such as logs, screenshots, or specific scenarios where the bug occurs to help with debugging.

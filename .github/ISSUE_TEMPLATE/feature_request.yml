@@ -1,0 +1,37 @@
+name: 🚀 Feature Request
+description: Suggest a new feature or enhancement
+title: "[FEATURE]: "
+labels: 
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in improving our project! 🚀
+        Please provide a detailed description of the feature you would like to see.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Feature Description"
+      description: "Describe the feature or enhancement you are requesting. What problem does it solve or what new capability does it add?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: "Use Cases"
+      description: "Describe the use cases for this feature. How will it be used, and who will benefit from it?"
+      placeholder: |
+        1. Use case 1
+        2. Use case 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: "Additional Information"
+      description: |
+        Provide any additional context, screenshots, or examples that might help us understand your request better.

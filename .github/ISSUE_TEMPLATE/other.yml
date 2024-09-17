@@ -1,0 +1,38 @@
+name: 📝 Issue Report
+description: Report an issue or provide feedback
+title: "[ISSUE]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this issue or provide feedback! 📝
+        Please provide as much detail as possible to help us understand and address your concern.
+
+  - type: textarea
+    id: issue-summary
+    attributes:
+      label: "Issue Summary"
+      description: "Provide a brief summary of the issue or feedback."
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "Describe the issue or feedback in detail. Include any relevant information, context, or examples."
+      placeholder: |
+        - What is the issue or feedback?
+        - How does it affect you?
+        - Any specific examples or scenarios?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: "Additional Information"
+      description: |
+        Provide any extra details that might help us understand the issue better, such as logs, screenshots, or links to related resources.
