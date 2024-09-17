@@ -7,5 +7,5 @@ Welcome to **Navicater Solutions Inc.**, where we build software solutions to en
 We welcome new talents! Feel free to contact us.
 
 ## 📫 Contact
-- **Website**: [navicater.com](https://navicater.com)
-- **Email**: contact@navicater.com
+
+- **Email**: team@navicater.com
